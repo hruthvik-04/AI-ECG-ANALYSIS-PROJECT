@@ -43,7 +43,7 @@ app = Flask(__name__, static_folder='static')
 app.secret_key = os.environ.get("SECRET_KEY", "5010dfae019e413f06691431b2e3ba82bbb456c661b0d27332a4dbd5bbd36bd8") 
 app.config["MYSQL_HOST"] = os.environ.get("MYSQL_HOST", "localhost")
 app.config["MYSQL_USER"] = os.environ.get("MYSQL_USER", "root")
-app.config["MYSQL_PASSWORD"] = os.environ.get("MYSQL_PASSWORD", "452003@hrX")
+app.config["MYSQL_PASSWORD"] = os.environ.get("MYSQL_PASSWORD", "your_password")
 app.config["MYSQL_DB"] = os.environ.get("MYSQL_DB", "hospital_ecg_db")
 app.config["MYSQL_CURSORCLASS"] = "DictCursor" 
 

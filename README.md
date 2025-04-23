@@ -272,5 +272,13 @@ pip install -r Requirement.txt
 Configure MySQL: WITH YOUR PASSWORD AND host
 
 
+---
+After configuring the mysql in flask app.py
+run this in your terminal
+
+```
+flask run app.py
+```
+
 
 
